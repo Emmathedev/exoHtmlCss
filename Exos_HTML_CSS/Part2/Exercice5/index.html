@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+    <style>
+        td, th {
+            border: 1px solid black;
+        }
+        .form5 {
+            background-color: #da8b6b;
+            height: 50%;
+            width: 400px;
+            display: block;
+            margin: 5px;
+            padding: 10px;
+            border-radius: 15px;
+            box-shadow:5px 5px 10px black;
+            line-height: 25px;
+            font-size: medium;
+        }   
+        input {
+            display: block;
+        }  
+    </style>
+</head>
+<body>
+    <h2>Exercice5</h2>
+    <p>Reproduire le formulaire</p>
+        <br>
+        <h2>Formulaire</h2>
+    <form class="form5">
+        <p>
+            <label for="nom">Veuillez saisir votre nom:</label>
+            <input type="text" name="nom" placeholder="Nom" id="nom"/>
+        </p>
+        <p>
+            <label for="prénom">Veuillez saisir votre prénom:</label>
+            <input type="text" name="prénom" placeholder="Prénom" id="prenom"/>
+        </p>
+        <p>
+            <label for="adresse">Veuillez saisir votre adresse:</label>
+            <input type="text" name="adresse" placeholder="Adresse" id="adresse"/>
+        </p>
+        <p>
+            <label for="tel">Veuillez saisir votre numéro de téléphone:</label>
+            <input type="tel" name="tel" placeholder="Téléphone" id="tel"/>
+        </p>
+        <p>
+            <label for="password">Veuillez saisir votre mot de passe:</label>
+            <input type="password" placeholder="Password" id="password"/>
+        </p>
+        <p>
+          <button>Envoyer</button>
+        </p>
+    </form>
+</body>
+</html>

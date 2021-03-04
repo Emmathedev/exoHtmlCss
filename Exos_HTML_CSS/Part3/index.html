@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset class="part1">
+            <legend class="legend1">Votre identité</legend>
+        <ol>
+                <li><label for="nom">Nom:</label>
+                    <input type="text" name="nom" placeholder="Nom" id="nom"/></li>
+                <li><label for="prénom">Prénom:</label>
+                    <input type="text" name="prénom" placeholder="Prénom" id="prenom"/></li>
+                <li> <label for="email">Adresse mail:</label>
+                    <input type="email" name="email" placeholder="Adresse mail" id="email"/></li>
+            </ol>
+        </fieldset>
+        <fieldset class="part2">
+            <legend class="legend2">Adresse de livraison</legend>
+        <ol>
+                <li><label for="adresse">Adresse:</label>
+                    <textarea type="text" name="adresse" placeholder="" id="adresse"/></textarea></li>
+                <li><label for="codepostal">Code postal:</label>
+                    <input type="number" name="codepostal" placeholder="Code postal" maxlength= "5" id="codepostal"/></li>
+                <li> <label for="ville">Ville:</label>
+                    <input type="text" name="ville" placeholder="Ville" id="ville"/></li>
+            </ol>
+        </fieldset>
+        <fieldset class="part3">
+            <legend class="legend3">Information de réglement</legend>
+        <ol>
+                <li><label for="card">Type de carte bancaire:</label>
+                    <ol>
+                        <li><input type="radio" id="visa" name="carte" value="visa">
+                            <label for="visa">Visa</label></li>
+                        <li><input type="radio" id="amex" name="carte" value="amex">
+                            <label for="amex">Amex</label></li>
+                        <li><input type="radio" id="mastercard" name="carte" value="mastercard">
+                            <label for="mastercard">Mastercard</label></li>
+                    </ol>
+                <li><label for="numérocarte">Numéro de carte:</label>
+                    <input type="number" name="numérocarte" placeholder="Numéro de carte" id="numérocarte"/></li>
+                <li><label for="codesecu">Code de sécurité:</label>
+                    <input type="number" name="codesecu" placeholder="Code de sécurité" id="codesecu"/></li>
+                <li> <label for="nomtit">Nom du titulaire:</label>
+                    <input type="text" name="nomtit" placeholder="Nom du titulaire" id="nomtit"/></li>
+            </ol>
+        </fieldset>
+          <button>J'achète!</button>
+    </form>
+</body>
+</html>
